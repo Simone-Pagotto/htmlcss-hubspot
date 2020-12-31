@@ -1,0 +1,763 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100%;
+  background-color: red;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* COMANDI CONDIVISI +- */
+.margin-share {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col{
+  float:left;
+}
+
+.r-float{
+  float: right;
+}
+
+.c30{
+  height: 60px;
+  width: 30%;
+}
+
+.r10{
+  height: 10%;
+}
+
+.r30{
+  height: 30%;
+}
+
+.r75{
+  height: 75%;
+}
+
+.r125{
+  height: calc(25%/2);
+}
+
+.r40{
+  height: 40%;
+}
+
+.r60{
+  height: 60%;
+}
+
+.r66{
+  height: calc(100%/3*2);
+}
+
+.r33{
+  height: calc(100%/3);
+}
+
+.c25{
+  width: 25%
+}
+
+.c75{
+  width: 75%
+}
+
+.c40{
+  width: 40%
+}
+
+.c60{
+  width: 60%
+}
+
+.c70{
+  width: 70%
+}
+
+.c100{
+  height: 100%;
+}
+
+.relative{
+  position: relative;
+}
+
+/* PRIME DUE RIGHE LOGIN E NAV */
+
+.login {
+  background-color: rgba(244, 249, 253, 1);
+  height: 60px;
+  border-bottom: 1px solid rgb(50, 73, 91);
+}
+
+.login-sx {
+  padding: 20px 0;
+  line-height: 20px;
+  color: rgb(50, 73, 91);
+}
+
+.c30:nth-child(2) {
+  margin: 0 5%;
+}
+
+.language{
+  margin-right: 15px;
+  border-right: 1px solid rgb(50, 73, 91);
+  padding-right: 15px;
+
+}
+
+.login-dx{
+  line-height: 60px;
+}
+
+.button-GetHubspotFree {
+  color : white;
+  background-color: rgb(254, 119, 90);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.button-Login {
+  color : rgb(254, 119, 90);
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.log-in {
+  margin: 0 20px;
+}
+
+.language:hover{
+  text-decoration: underline;
+  color: rgb(0, 122, 140);
+}
+
+.contact-us:hover{
+  text-decoration: underline;
+  color: rgb(0, 122, 140);
+}
+
+.nav {
+  background-color: rgba(255, 255, 255, 1);
+  height: 75px;
+}
+
+.logo {
+  background-color: red;
+  position: relative;
+}
+
+.logo>img{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, 25%);
+}
+
+.nav-dx{
+  color: rgb(50, 73, 91);
+  line-height: 75px;
+}
+
+.nav-option {
+  margin-left: 25px;
+}
+
+/* MAIN E SEPARATORE */
+
+.main{
+  background-color: rgba(255, 244, 239, 1);
+  background-image: url("../img/background-main.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 100%;
+  height: 500px;
+  position: relative;
+}
+
+.main-sx {
+  color: rgb(50, 73, 91);
+  margin-left: 10%;
+  width: 30vw;
+  height: 100%;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.button-GetHubspotFree-BIG {
+  color : white;
+  background-color: rgb(254, 119, 90);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.main-sx>h1{
+  font-size: 36px;
+}
+
+.main-sx>p{
+  font-size: 10px;
+  line-height: 14px;
+  margin: 36px 0;
+}
+
+
+
+.split{
+  background-color: rgba(175, 235, 228, 1);
+  height: 68px;
+  border-width: 2px 0 ;
+  border-style: solid;
+  border-color:rgba(51, 71, 92,1); */
+}
+
+/* PRODUCT OVERVIEW */
+
+.product-overview {
+  background-color: rgba(244, 249, 253, 1);
+  height: 1350px;
+  padding: 25px 0;
+}
+
+.margin-top-bottom{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.h25{
+  height: 25%;
+}
+
+.h44{
+  height: 44%;
+}
+.h50{
+  height: 50%;
+}
+
+.h20{
+  height: 20%;
+}
+.h30{
+  height: 30%;
+}
+
+.h100{
+  height: 100%;
+}
+
+.h75{
+  height: 75%;
+}
+
+.h125{
+  height: calc(25%/2);
+}
+
+.w100{
+  width: 100%
+}
+
+.w20{
+  width:  20%;
+}
+
+.w80{
+  width: 80%
+}
+
+.block{
+  width: 100%;
+  margin-top: 2%;
+  color: rgb(50, 73, 91);
+}
+
+.block:first-of-type{
+  text-align: center;
+}
+
+.block:nth-of-type(2), .card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow:0 0 10px rgb(232, 237, 243);
+}
+
+.padding{
+  padding:2%;
+}
+
+.w25{
+  width: 25%;
+}
+
+.w75{
+  width: 75%;
+}
+
+.w70{
+  width:70%;
+}
+
+/* .sx {
+  background-color: green;
+}
+
+.dx{
+  background-color: green;
+} */
+
+.button-LearnMore {
+  color : white;
+  background-color: rgb(254, 119, 90);
+  width:160px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.line{
+  height: 1px;
+  background-color: rgb(50, 73, 91);
+}
+
+.allinea{
+  display: flex;
+  align-items: center;
+}
+
+.block>div>div>div>h1,
+.card>div>h1 {
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+.allinea>div:first-of-type {
+  font-weight: bold;
+}
+
+.block>div>div>div>p{
+  padding-top: 18px;
+}
+
+.block>div>div>div>p>i{
+  color: rgb(254, 119, 90);
+}
+
+.block>div>div>div>p>span{
+  padding-right: 25px;
+}
+ .card{
+   padding: 2%;
+   /* text-align: center; */
+ }
+
+ .card>div:first-of-type{
+   text-align: center;
+ }
+
+ .w30{
+   width:30%;
+ }
+
+ .block>.card:nth-of-type(2) {
+   margin: 0 5%;
+ }
+
+ .center-button{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+ }
+
+ .card>.h75>p{
+   padding: 40px 10px;
+   line-height: 20px;
+   font-size:14px;
+ }
+
+ .card>.h75>p{
+   padding: 40px 10px;
+   line-height: 20px;
+   font-size:14px;
+ }
+
+ .card>div>h3{
+   padding: 30px 10px;
+   line-height: 10px;
+   font-size:16px;
+ }
+
+ .card>div>p>i{
+   color: rgb(254, 119, 90);
+   padding-right: 10px;
+ }
+
+
+ /* .markething-hub{
+  text-align: center;
+ } */
+/* .prod-head {
+  text-align: center;
+  height: 336px;
+  color: rgb(50, 73, 91);
+}
+
+.prod-head>h1{
+  font-size: 32px;
+}
+
+.prod-head>p{
+  font-size: 12px;
+  line-height: 18px;
+  margin: 20px 0;
+}
+
+.main-block {
+  height: 336px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.main-block-left {
+  height: 336px;
+}
+
+.main-block-left-elements {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-100% , -50%);
+}
+
+.button-LearnMore {
+  color : white;
+  background-color: rgb(254, 119, 90);
+  width:160px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.main-block-right{
+  color: rgb(50, 73, 91);
+  height: 336px;
+
+}
+
+.main-block-right-elements {
+  margin: 50px 75px;
+}
+
+.main-block-right-elements > p {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 36px 0;
+}
+
+.main-block-right-elements > h1 {
+  font-size: 36px;
+}
+
+.main-block-right-elements >div> span {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.main-block-right-elements > p >span{
+  margin: 0 20px;
+
+}
+
+.main-block-right-elements > p >i{
+  color:rgb(254, 119, 90);
+}
+
+.align>.line{
+  display: inline-block;
+  height: 2px;
+  width:60%;
+  background-color: rgb(50, 73, 91);
+}
+
+.align{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.relative .outer{
+  height: 30px;
+}
+
+.secondary-block {
+  height: 575px;
+  margin-top: 25px;
+}
+
+.block{
+  height: 575px;
+  width: 30%;
+  background-color: white;
+  padding:20px;
+  border-radius: 10px;
+  color: rgb(50, 73, 91);
+}
+
+.marketing-hub:nth-of-type(1),
+.sales-hub:nth-of-type(1),
+.service-hub:nth-of-type(1)  {
+  text-align: center;
+}
+
+.r75>p {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 46px 0;
+}
+
+.r75>h3 {
+  margin:30px 0;
+}
+
+.r125>p>span {
+  margin-left: 10px;
+}
+
+.block>div>p>i{
+    color:rgb(254, 119, 90)
+}
+
+.center-button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.w100{
+  width: 100%;
+}
+
+.block:nth-child(2){
+  margin: 0 5%;
+} */
+
+/* STATISTICHE E PARTNERSHIPS */
+
+.stats {
+  background: linear-gradient(45deg,#00A4BD,#00BCA5);
+  height: 575px;
+  padding: 25px 0;
+}
+
+.stats-title {
+  height: 175px;
+  text-align: center;
+  color: white;
+}
+
+.stats-title>h1{
+  font-size: 36px;
+  margin-top:10px ;
+}
+
+.stats-title>p {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 32px 0;
+}
+
+.stats-table{
+  position: relative;
+  height:350px;
+  padding:25px 0;
+  color: white;
+}
+
+#bold{
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.table-box > p{
+  font-size: 14px;
+  line-height: 18px;
+  margin: 32px 0;
+}
+
+.table-box{
+  width: calc(100%/4);
+  height: calc(100%/2);
+  text-align: center;
+  padding-top: 6px;
+}
+
+.br{
+  border-right: 1px solid white;
+}
+
+.bb{
+  border-bottom: 1px solid white;
+}
+
+.partnerships {
+  background-color: rgba(255, 255, 255, 1);
+  height: 575px;
+  /* padding:25px 0; */
+  color: rgb(50, 73, 91);
+}
+
+.partn-top{
+}
+
+.partn-top-left{
+  height: 100%;
+}
+
+.partn-top>div:first-child{
+  text-align: center;
+  padding: 40px 100px;
+}
+
+.partn-top>div>p {
+  font-size: 16px;
+  line-height: 18px;
+  margin: 10px 0;
+}
+
+.brand-center{
+  height: 100%;
+}
+
+.brand-center>img {
+  position: absolute;
+  transform: translate(-4% , 55%);
+  max-width: 80%;
+}
+
+.partn-bottom{
+  /* height: 350px; */
+  padding-top:25px;
+}
+
+.partn-bottom>div:first-child {
+  padding: 0 50px;
+}
+
+.partn-bottom>div:first-child>h1{
+  font-size: 36px;
+}
+
+.partn-bottom>div:first-child>p{
+  font-size: 14px;
+  line-height: 18px;
+  margin: 20px 0;
+}
+
+.partn-bottom>div:nth-child(2)>div>img{
+  max-width: 75%;
+}
+
+/* FOOTER */
+
+.footer{
+  background-color: rgba(50, 73, 91, 1);
+  height: 505px;
+  padding: 25px 0;
+}
+
+.footer-middle{
+  /* height: 305px; */
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgb(218, 222, 224);
+}
+
+
+.footer-bottom{
+  /* height: 150px; */
+}
+
+.elenco{
+  /* height: 305px; */
+  padding-right: 10px;
+  color: white;
+}
+
+.elenco>h4{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.elenco>p>a{
+  font-size: 14px;
+  line-height: 32px;
+  margin: 20px 0;
+  text-decoration: none;
+  color: rgb(218, 222, 224);
+}
+
+.buttonContactSupport {
+  color : rgba(50, 73, 91, 1);
+  background-color: rgb(218, 222, 224);
+  border-radius: 10px;
+  padding: 10px;
+  margin:10px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+ .h-50{
+   height: 50px;
+ }
+
+#space {
+  padding:15px;
+  margin-top: 10px;
+}
+
+.footer-language{
+  width:50%;
+  margin: auto;
+  color: rgb(218, 222, 224);
+}
+
+.footer-language>span{
+  margin:11px;
+}
+
+.footer-bottom>div>p {
+  color: rgb(218, 222, 224);
+  line-height: 20px;
+}
+
+.footer-bottom>div>div>p {
+  color: rgb(218, 222, 224);
+  line-height: 100px;
+  margin-left: 20px;
+}
